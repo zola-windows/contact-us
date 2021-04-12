@@ -121,6 +121,15 @@
                     min-width: 0px;
                 }
             
+                #tfa_18,
+                *[id^="tfa_18["] {
+                    width: 195px !important;
+                }
+                #tfa_18-D,
+                *[id^="tfa_18["][class~="field-container-D"] {
+                    width: auto !important;
+                }
+            
                 #tfa_13,
                 *[id^="tfa_13["] {
                     height: 
@@ -169,11 +178,39 @@
 <div class="oneField field-container-D  labelsLeftAligned  " id="tfa_14-D" role="group" aria-labelledby="tfa_14-L" data-tfa-labelledby="-L tfa_14-L">
 <label id="tfa_14-L" class="label preField ">I'd like to receive occasional Zola news.</label><div class="inputWrapper"><span id="tfa_14" class="choices horizontal "><span class="oneChoice"><input type="checkbox" value="tfa_15" class="" checked data-default-value="true" id="tfa_15" name="tfa_15" aria-labelledby="tfa_15-L" data-tfa-labelledby="tfa_14-L tfa_15-L"><label class="label postField" id="tfa_15-L" for="tfa_15"><span class="input-checkbox-faux"></span><br></label></span></span></div>
 </div>
+<div id="tfa_17" class="section group wf-acl-hidden">
+<input type="hidden" id="tfa_18" name="tfa_18" value="UA-33378148-1" class="calc-GOOGLEACCOUNTID"><div class="htmlSection" id="tfa_19"><div class="htmlContent" id="tfa_19-HTML"><script type="text/javascript">
+/* Google Tracking Code   */
+
+(function(){ 
+	if(!document.querySelector && base2) {
+	  document.querySelector = base2.DOM.Element.querySelector
+	}
+	var gaId = document.querySelector('input.calc-GOOGLEACCOUNTID');
+	if(gaId) gaId = gaId.value;
+	
+	if(gaId && !window._gaq) {        
+	    window._gaq = window._gaq || [];
+	    window._gaq.push(['_setAccount', gaId]);
+        window._gaq.push(['_setAllowLinker', true]);
+	    window._gaq.push(['_trackPageview']);
+	  
+	    (function() {
+	      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+	}
+})();
+ 
+</script></div></div>
+</div>
 <div class="actions" id="4896436-A"><input type="submit" data-label="Submit" class="primaryAction" id="submit_button" value="Submit"></div>
 <div style="clear:both"></div>
-<input type="hidden" value="4896436" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="cafb9421e071f63986317feafba59f85" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="" name="tfa_dbWorkflowSessionUuid" id="tfa_dbWorkflowSessionUuid"><input type="hidden" value="7" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
+<input type="hidden" value="4896436" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="cafb9421e071f63986317feafba59f85" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="" name="tfa_dbWorkflowSessionUuid" id="tfa_dbWorkflowSessionUuid"><input type="hidden" value="8" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
 </form>
 </div></div><div class="wFormFooter"><p class="supportInfo"><a target="new" class="contactInfoLink" href="https://www.tfaforms.com/forms/help/4896436">Contact Information</a><br></p></div>
   <p class="supportInfo" >
       </p>
  </div>
+
